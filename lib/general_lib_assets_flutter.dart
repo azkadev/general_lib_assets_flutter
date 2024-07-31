@@ -1,0 +1,1 @@
+library general_lib_assets_flutter;

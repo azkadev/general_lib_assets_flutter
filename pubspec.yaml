@@ -1,0 +1,31 @@
+name: 'general_lib_assets_flutter'
+description: 'General assets flutter'
+version: '0.0.0'
+environment: 
+  sdk: '>=3.3.3 <4.0.0'
+  flutter: '>=1.17.0'
+dependencies: 
+  flutter: 
+    sdk: 'flutter'
+  general_lib: '^0.0.43'
+  path: '^1.9.0'
+  yaml: '^3.1.2'
+  yaml_writer: '^2.0.0'
+dev_dependencies: 
+  flutter_test: 
+    sdk: 'flutter'
+  flutter_lints: '^3.0.0'
+flutter: 
+  fonts: 
+    - family: 'NotoEmoji'
+      fonts: 
+        - asset: 'packages/general_lib_assets_flutter/assets/fonts/NotoEmoji-Regular.ttf'
+    - family: 'Poppins'
+      fonts: 
+        - asset: 'packages/general_lib_assets_flutter/assets/fonts/poppins/Poppins-Regular.ttf'
+  assets: []
+# publish_to: 'none'
+dependency_overrides: 
+  pointycastle: '3.8.0'
+funding: 
+  - 'https://github.com/sponsors/azkadev'
