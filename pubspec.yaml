@@ -7,7 +7,7 @@ environment:
 dependencies: 
   flutter: 
     sdk: 'flutter'
-  general_lib: '^0.0.43'
+  general_lib: '^0.0.44'
   path: '^1.9.0'
   yaml: '^3.1.2'
   yaml_writer: '^2.0.0'
@@ -24,7 +24,6 @@ flutter:
       fonts: 
         - asset: 'packages/general_lib_assets_flutter/assets/fonts/poppins/Poppins-Regular.ttf'
   assets: []
-# publish_to: 'none'
 dependency_overrides: 
   pointycastle: '3.8.0'
 funding: 
