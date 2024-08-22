@@ -23,7 +23,12 @@ flutter:
     - family: 'Poppins'
       fonts: 
         - asset: 'packages/general_lib_assets_flutter/assets/fonts/poppins/Poppins-Regular.ttf'
-  assets: []
+  assets: 
+    - 'packages/general_lib_assets_flutter/assets/alert/flare/error_check.flr'
+    - 'packages/general_lib_assets_flutter/assets/alert/flare/info_check.flr'
+    - 'packages/general_lib_assets_flutter/assets/alert/flare/loading.flr'
+    - 'packages/general_lib_assets_flutter/assets/alert/flare/success_check.flr'
+    - 'packages/general_lib_assets_flutter/assets/alert/flare/warning_check.flr'
 dependency_overrides: 
   pointycastle: '3.8.0'
 funding: 
