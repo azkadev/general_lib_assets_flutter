@@ -1,37 +1,38 @@
 name: 'general_lib_assets_flutter'
 description: 'General assets flutter'
 version: '0.0.0'
-environment: 
+environment:
   sdk: '>=3.3.3 <4.0.0'
   flutter: '>=1.17.0'
-dependencies: 
-  flutter: 
+dependencies:
+  flutter:
     sdk: 'flutter'
-  general_lib: '^0.0.46'
+  general_lib: '^0.0.49'
   path: '^1.9.0'
   yaml: '^3.1.2'
   yaml_writer: '^2.0.0'
-dev_dependencies: 
-  flutter_test: 
+dev_dependencies:
+  flutter_test:
     sdk: 'flutter'
-  flutter_lints: '^4.0.0'
-flutter: 
-  fonts: 
+  flutter_lints: '^5.0.0'
+flutter:
+  fonts:
     - family: 'NotoEmoji'
-      fonts: 
+      fonts:
         - asset: 'packages/general_lib_assets_flutter/assets/fonts/NotoEmoji-Regular.ttf'
     - family: 'Poppins'
-      fonts: 
+      fonts:
         - asset: 'packages/general_lib_assets_flutter/assets/fonts/poppins/Poppins-Regular.ttf'
-  assets: 
+  assets:
     - 'packages/general_lib_assets_flutter/assets/alert/flare/error_check.flr'
     - 'packages/general_lib_assets_flutter/assets/alert/flare/info_check.flr'
     - 'packages/general_lib_assets_flutter/assets/alert/flare/loading.flr'
     - 'packages/general_lib_assets_flutter/assets/alert/flare/success_check.flr'
     - 'packages/general_lib_assets_flutter/assets/alert/flare/warning_check.flr'
-dependency_overrides: 
+dependency_overrides:
   pointycastle: '3.8.0'
-funding: 
+  mime: '^2.0.0'
+funding:
   - 'https://github.com/sponsors/azkadev'
   - 'https://github.com/sponsors/generalfoss'
 homepage: 'https://youtube.com/@azkadev'
